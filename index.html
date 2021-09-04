@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+    <body bgcolor="#DFE9F4">
+        <div>
+            <h2>Ingreso de datos</h2>
+        </div>
+        <div>
+            <form>
+                <div>
+                    <label for="name">Nombre</label><br>
+                    <input type="text" id="name" name="name" placeholder="Digite su nombre completo" required autofocus>
+                </div>
+                <br>
+                <div>
+                    <label for="edad">Edad</label><br>
+                    <input type="number" id="edad" name="edad" placeholder="Digite su edad" required >
+                </div>
+                <br>
+                <div>
+                    <label for="cedula">Cedula</label><br>
+                    <input type="number" id="cedula" name="cedula" placeholder="Digite su Cedula" required >
+                </div>
+                <br>
+                <div>
+                    <label>Género</label>
+                    <br>
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" id="femenino" name="genero">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="masculino" name="genero">
+                </div>
+                <br>
+                <div>
+                    <label for="correo">Correo</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="Digite su Correo" required >
+                </div>
+                <br>
+                <div>
+                    <label for="peso">Peso</label><br>
+                    <input type="number" id="peso" name="peso" placeholder="Digite su Peso" required >
+                </div>
+                <br>
+                <div>
+                    <label for="talla">Talla</label><br>
+                    <input type="number" id="talla" name="talla" placeholder="Digite su Talla" required >
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Calcular IMC">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
